@@ -1,0 +1,20 @@
+.project{
+    @apply flex items-center justify-between bg-[#FFF] px-7 py-8 rounded-xl;
+    &:not(:last-child) {
+        @apply mb-8;
+    }
+    p{
+        @apply w-3/12;
+    }
+}
+.img{
+    @apply w-3/12;
+    img{
+        // width: 180px;
+        @apply h-[180px]
+    }
+}
+.btns{
+    @apply flex gap-x-4;
+
+}

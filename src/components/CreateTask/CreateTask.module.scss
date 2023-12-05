@@ -1,0 +1,26 @@
+.form {
+    @apply max-w-[950px] mx-auto bg-white p-[20px];
+  
+    h3 {
+        @apply text-[27px] mb-[10px];
+    }
+  }
+  
+  .input {
+    input {
+      @apply w-full px-4 py-3 bg-gray-100 text-gray-700 border border-gray-300 rounded;
+    }
+  
+    &:not(:last-child) {
+      @apply mb-6;
+    }
+  }
+  
+  .btn {
+    @apply flex justify-end mt-[15px] text-[21px] font-bold;
+  
+    button {
+        @apply text-white bg-indigo-700  rounded-full px-[90px] py-[18px] mb-[35px];
+    }
+  }
+  

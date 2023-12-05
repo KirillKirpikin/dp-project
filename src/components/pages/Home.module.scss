@@ -1,0 +1,36 @@
+.container{
+    @apply mx-auto px-2.5;
+    @screen sm {
+        max-width: 640px;
+      }
+    
+      @screen md {
+        max-width: 768px;
+      }
+    
+      @screen lg {
+        max-width: 1024px;
+      }
+    
+      @screen xl {
+        max-width: 1280px;
+      }
+    
+      @screen 2xl {
+        max-width: 1536px;
+      }
+}
+
+.top{
+    @apply flex items-center justify-between;
+}
+.title{
+    @apply font-bold text-[60px];
+}
+.filter{
+    @apply flex;
+    input{
+        @apply border-solid border-2 border-[#8DA5FC] px-4 ml-4 w-72;       
+    }
+   
+}

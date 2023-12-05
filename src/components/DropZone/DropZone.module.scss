@@ -1,0 +1,42 @@
+.dropzone {
+    @apply m-0 mx-[15px] mb-[70px];
+  }
+  
+  .zona {
+    @apply h-[170px] flex flex-col p-[20px] cursor-pointer border-2 border-dashed border-indigo-700 rounded-lg mb-4;
+  
+    h2 {
+      @apply text-[24px] font-extrabold text-indigo-700;
+    }
+  
+    p {
+      @apply text-center text-[20px] font-medium mt-[15px];
+    //   margin-top: 15px; /* Исправление здесь */
+    }
+  }
+  
+  .files {
+    h4 {
+      @apply text-[20px] font-medium mb-[10px];
+    }
+  }
+  
+  .list {
+    @apply flex flex-wrap gap-[8px];
+  }
+  
+  .item {
+    @apply w-[120px] h-[120px] relative;
+  
+    img {
+      @apply w-full h-full object-cover;
+    }
+  
+    button {
+      @apply absolute top-[5px] right-0 bg-black rounded-full flex justify-center items-center;
+  
+      svg {
+        @apply w-[35px] h-[35px] fill-white;
+      }
+    }
+  }
